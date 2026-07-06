@@ -15,9 +15,9 @@ public class handle
             c=a/b;
             System.out.println("Result= "+c);
         }
-        catch (Exception e)
+        catch (ArithmeticException e)
         {
-            System.out.println("Can't divide by Zero(0)");
+            System.out.println("Error: Division by zero is not allowed.");
         }
     }
 }
